@@ -1,0 +1,4 @@
+<h1>Hello, These are all of your users</h1>
+<% @users.each do |user| %>
+	<%= user.name %>: <%= user.email %><br>
+<% end %>
